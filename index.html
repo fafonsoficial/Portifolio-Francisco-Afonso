@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta Tags -->
+    <meta name="description" content="Portifólio Pessoal">
+    <meta name="keywords" content="Portifólio, Pessoal, Desenvolvimento, Web, Programação, Design">
+    <meta name="author" content="Francisco Afonso">
+    <meta name="Localization" content="Bragança, Portugal, Europa">
+    <!-- Meta Tags -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS -->
+
+    <!-- Favicon -->
+    <link rel="icon" href="#" type="image/x-icon">
+    <!-- Favicon -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Boxicons-->
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Bootstrap-->
+
+
+    <title>Portifólio Pessoal - Francisco Afonso</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto" href="#">Portifólio</a>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Portifólio</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-lg-2" aria-current="page" href="#inicio">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#habilidades">Habilidades</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#projetctos" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Projetos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#font-end">Desenvolvimento Front-end</a></li>
+                                    <li><a class="dropdown-item" href="#back-end">Desenvolvimento Back-end</a></li>
+                                    <li><a class="dropdown-item" href="#design">Design UX/UI</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#trabalho">Trabalhos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#servico">Serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#testemunho">Testemunho</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#contacto">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#"><i class='bx bx-search-alt-2'></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5" id="inicio">
+        <section class="mb-5">
+            <div class="row mb-5">
+                <div class="col-md-7 align-self-center">
+                    <h1>
+                        Olá. Eu sou o <span>Francsico Afonso</span> e sou web developer!
+                    </h1>
+                </div>
+
+                <div class="col-md-5">
+                    <img src="image/img-foto-perfil-francisco.png" alt="Foto de Francisco Afonso" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="row mb-5" id="sobre">
+                <div class="col-12">
+                    <h2>Sobre Mim</h2>
+                    <p>
+                        Sou um desenvolvedor apaixonado por criar interfaces bonitas e funcionais. Tenho experiência em
+                        HTML, CSS e Javascript. Busco constantemente por novos desafios e oportunidades de crescimento.
+                        Acredito que a tecnologia pode transformar o mundo e quero fazer parte dessa transformação.
+                        Neste
+                        portfólio, compartilho alguns projetos que refletem minha paixão por <span>Web
+                            Development</span> e
+                        minha vontade de aprender e evoluir.
+                    </p>
+                    <a class="btn btn-primary" href="projetos.html" target="_blank">Conheça o meu trabalho</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mb-5" id="habilidades">
+            <h2 class="mb-4">Minhas Habilidades</h2>
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h4>Front-end</h4>
+                    <img src="image/img-front-end.jpg" alt="Imagem de destaque de front-end"
+                        title="Imagem de destaque de font-end" class="img-fluid">
+                    <p>
+                        Transformo ideias em interfaces interativas e responsivas! Com experiência em HTML, CSS,
+                        JavaScript e frameworks como React e Vue.js, desenvolvo aplicações dinâmicas e otimizadas para a
+                        melhor experiência do usuário
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Back-End</h4>
+                    <img src="image/img-back-end.jpg" alt="Imagem de destaque de back-end"
+                        title="Imagem de destaque de back-end" class="img-fluid">
+                    <p>
+                        Construo a base sólida para aplicações escaláveis e seguras! Especializado em PHP e bancos de
+                        dados MySQL e, foco na performance, segurança e arquitetura eficiente das aplicações.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Design UX e UI</h4>
+                    <img src="image/img-design.jpg" alt="Imagem de destaque de design"
+                        title="Imagem de destaque de design" class="img-fluid">
+                    <p>
+                        Acredito que um bom design vai além da estética! Com domínio de Figma, crio interfaces
+                        intuitivas e acessíveis, priorizando a experiência do usuário e a identidade visual única de
+                        cada projeto.
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">
+                    Saiba mais
+                </button>
+            </div>
+        </section>
+
+        <section class="mb-5" id="projetctos">
+            <h2 class="mb-4">Projetos Realizados</h2>
+            <div class="row">
+                <p id="front-end">
+                    <strong>Plataforma de Cursos Online (Front-end)</strong>
+                    <br>
+                    Desenvolvi uma plataforma de cursos online utilizando React.js e Tailwind CSS, proporcionando uma
+                    interface moderna e responsiva. O projeto inclui um sistema de navegação intuitivo, integração com
+                    API para listagem de cursos e um modo escuro para melhor experiência do usuário. Além disso,
+                    implementei animações suaves com Framer Motion para tornar a interação mais fluida e envolvente
+                </p>
+
+                <p id="back-end">
+                    <strong>API para Gestão de Tarefas (Back-end)</strong>
+                    <br>
+                    Criei uma API RESTful para um sistema de gestão de tarefas, utilizando Node.js com Express e banco
+                    de dados MongoDB. O back-end foi desenvolvido com autenticação JWT, validação de dados com Joi e
+                    testes automatizados para garantir a confiabilidade do sistema. A API permite que usuários criem,
+                    editem e excluam tarefas, além de acompanhar o progresso com status personalizados. Tudo foi
+                    estruturado seguindo boas práticas de arquitetura como MVC e princípios SOLID.
+                </p>
+
+                <p id="design">
+                    <strong>Redesign de um Aplicativo de Delivery (UX/UI)</strong>
+                    <br>
+                    Liderei o redesign de um aplicativo de delivery com foco na experiência do usuário. Através de
+                    pesquisas com usuários e análise de usabilidade, identifiquei pontos de melhoria e desenvolvi um
+                    novo design no Figma. A interface reformulada melhorou a navegação,reduziu o número de cliques
+                    necessários para realizar um pedido e otimizou o fluxo de checkout. O projeto resultou em um aumento
+                    na taxa de conversão e maior satisfação dos usuários.
+                </p>
+
+            </div>
+            <a class="btn btn-primary" href="projetos.html" target="_blank">Conheça o meu trabalho</a>
+        </section>
+
+        <section class="mb-5" id="trabalho">
+            <h2 class="mb-4">Trabalhos Desenvolvidos em Equipe</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="image/img-atividades.png" alt="Imagem de atividades realizadas"
+                        title="Imagem de atividades realizadas" class="img-fluid">
+                </div>
+
+                <div class="col-md-9">
+                    <p class="mb-3">
+                        <strong>Desenvolvedor Front-end – [Nome da Empresa]</strong>
+                        <br>
+                        Atuei como Desenvolvedor Front-end, criando interfaces modernas e responsivas para aplicações
+                        web. Trabalhei com tecnologias como Bootstrap e React.js, sempre focado na performance e
+                        acessibilidade. Participei ativamente da criação de componentes reutilizáveis e na implementação
+                        de testes para garantir a qualidade do código. Além disso colaborei com a equipe de design para
+                        transformar protótipos em experiências interativas e intuitivas.
+                    </p>
+
+                    <p class="mb-3">
+                        <strong>Desenvolvedor Back-end – [Nome da Empresa]</strong>
+                        <br>
+                        No cargo de Desenvolvedor Back-end, fui responsável pelo desenvolvimento e manutenção de APIs
+                        escaláveis utilizando Node.js e bancos de dados MySQL. Implementei autenticação segura com PHP,
+                        criei soluções para otimização de performance e trabalhei na arquitetura do sistema seguindo
+                        princípios SOLID e Clean Code. Também participei da integração entre serviços front-end e
+                        back-end, garantindo a comunicação eficiente entre as camadas da aplicação.
+                    </p>
+
+                    <p class="mb-3">
+                        <strong>UX/UI Designer – [Nome da Empresa]</strong>
+                        <br>
+                        Como UX/UI Designer, conduzi pesquisas de usuário, testes de usabilidade e prototipagem de
+                        interfaces para diversos projetos.
+                        Utilizei ferramentas como Figma para criar layouts intuitivos e acessíveis, focando sempre na
+                        melhor experiência do usuário. Trabalhei em colaboração com desenvolvedores para garantir a
+                        implementação fiel dos designs e desenvolvi guias de estilo para manter a identidade visual dos
+                        produtos digitais.
+                    </p>
+
+                    <a class="btn btn-primary" href="projetos.html" target="_blank">Conheça o meu trabalho</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5" id="servico">
+            <h2 class="mb-4">Serviços oferecidos</h2>
+            <div class="row text-center">
+
+                <div class="col-md-6 mb-4">
+                    <h3>Desenvolvimento Front-end</h3>
+                    <p>
+                        Criação de interfaces responsivas, modernas e otimizadas para web, utilizando tecnologias
+                        como
+                        HTML, CSS, JavaScript, Bootstrap, React.js e Vue.js. Transformo designs em experiências
+                        interativas, garantindo performance, acessibilidade e compatibilidade com diferentes
+                        dispositivos-
+                    </p>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <h3>Desenvolvimento Back-end</h3>
+                    <p>
+                        Construção de APIs escaláveis e seguras com Node.js, Express e bancos de dados SQL/NoSQL.
+                        Implementação de autenticação, lógica de negócios e integração com serviços externos para
+                        garantir o funcionamento eficiente de aplicações web.
+                    </p>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <h3>Design UX/UI</h3>
+                    <p>
+                        Criação de interfaces intuitivas e acessíveis, focadas na melhor experiência do usuário.
+                        Desde
+                        pesquisa e prototipação até design final no Figma ou Adobe XD, garantindo que cada detalhe
+                        seja
+                        funcional e esteticamente agradável
+                    </p>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <h3>Consultoria e Otimização de Projetos</h3>
+                    <P>
+                        Análise e aprimoramento de projetos web para melhorar performance, acessibilidade e
+                        usabilidade.
+                        Revisão de código, otimização de SEO e implementação de melhores práticas para tornar
+                        produtos
+                        digitais mais eficientes e atraentes para o público.
+                    </P>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="mb-5" id="testemunho">
+            <h2 class="mb-4">Testemunhos</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="image/img-testemunho.jpg" alt="Imagem de Testemunhos" class="img-fluid">
+                </div>
+
+                <div class="col-md-9">
+                    <p class="mb-3">
+                        <strong>João Silva – CEO de Startup Tech</strong>
+                        <br>
+                        Trabalhar com [Seu Nome] foi uma experiência incrível! Ele desenvolveu a interface do nosso
+                        sistema
+                        com
+                        um design moderno e responsivo. Sempre atento aos detalhes e prazos, entregou um projeto acima
+                        das
+                        nossas expectativas.
+                    </p>
+
+                    <p class="mb-3">
+                        <strong>Mariana Costa – UX/UI Designer</strong>
+                        <br>
+                        Profissional extremamente talentoso! Sua atenção à experiência do usuário e sua habilidade em
+                        transformar protótipos em interfaces interativas fizeram toda a diferença no nosso projeto.
+                        Recomendo
+                        sem hesitar!
+                    </p>
+
+                    <p class="mb-3">
+                        <strong>Pedro Almeida – Empreendedor Digital</strong>
+                        <br>
+                        Precisava de um site rápido e eficiente para o meu negócio, e o [Seu Nome] entregou exatamente
+                        isso.
+                        Além de um design impecável, o site carrega rápido e tem uma ótima experiência de navegação.
+                        Excelente trabalho!
+                    </p>
+
+                    <a href="contactos.html" target="_blank" class="btn btn-primary">Ver mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5" id="contacto">
+            <h2 class="mb-4">Vamos conversar</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h4>Envie uma mensagem</h4>
+                    <p>
+                        Tem um projeto em mente? Vamos conversar! Entre em contato via <a
+                            href="mailto:franciscoafonso014@gmail.com">email</a> e transforme sua ideia em realidade!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Agende uma reunião</h4>
+                    <p>
+                        Agende uma reunião e leve seu projeto ao próximo nível. Vamos discutir soluções personalizadas
+                        para suas necessidades.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Conecte-se comigo</h4>
+                    <p>
+                        Conecte-se comigo nas redes sociais e acompanhe meus projetos, insights e novidades do setor.
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="contactos.html" target="_blank" class="btn btn-primary">Entre em contacto</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container text-center">
+            <p>
+                &copy; 2025 - Francisco Afonso, <a href="politica-privacidade.html" class="text-light">Todos os direitos reservados</a>
+            </p>
+
+            <div class="mt-3">
+                <a href="#" class="text-light mx-2" aria-label="Facebook">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="#" class="text-light mx-2" aria-label="Facebook">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="#" class="text-light mx-2" aria-label="Facebook">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="#" class="text-light mx-2" aria-label="Facebook">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="#" class="text-light mx-2" aria-label="Facebook">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!---Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
