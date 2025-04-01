@@ -12,10 +12,6 @@
     <meta name="Localization" content="Bragança, Portugal, Europa">
     <!-- Meta Tags -->
 
-    <!-- CSS -->
-    <link href="css/styles.css" rel="stylesheet">
-    <!-- CSS -->
-
     <!-- Favicon -->
     <link rel="icon" href="#" type="image/x-icon">
     <!-- Favicon -->
@@ -35,13 +31,17 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Bootstrap-->
 
+    <!-- CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- CSS -->
+
 
     <title>Portifólio Pessoal - Francisco Afonso</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-black navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand me-auto" href="#">Portifólio</a>
 
@@ -54,13 +54,10 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active mx-lg-2" aria-current="page" href="#inicio">Início</a>
+                                <a class="nav-link mx-lg-2" aria-current="page" href="#inicio">Início</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link mx-lg-2" href="#sobre">Sobre</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="#habilidades">Habilidades</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#projetctos" role="button"
@@ -74,13 +71,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="#trabalho">Trabalhos</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link mx-lg-2" href="#servico">Serviços</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="#testemunho">Testemunho</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link mx-lg-2" href="#contacto">Contacto</a>
@@ -103,21 +94,25 @@
     <main class="container my-5" id="inicio">
         <section class="mb-5">
             <div class="row mb-5">
-                <div class="col-md-7 align-self-center">
-                    <h1>
-                        Olá. Eu sou o <span>Francsico Afonso</span> e sou web developer!
-                    </h1>
-                </div>
-
                 <div class="col-md-5">
                     <img src="image/img-foto-perfil-francisco.png" alt="Foto de Francisco Afonso" class="img-fluid">
+                </div>
+
+                <div class="col-md-7 align-self-center">
+                    <h1>
+                        My <br> Portifolio
+                    </h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus exercitationem amet maxime totam quam minus alias saepe iste inventore? Esse porro assumenda reiciendis.
+                    </p>
                 </div>
             </div>
 
             <div class="row mb-5" id="sobre">
                 <div class="col-12">
                     <h2>Sobre Mim</h2>
-                    <p>
+                    <p class="justificado">
                         Sou um desenvolvedor apaixonado por criar interfaces bonitas e funcionais. Tenho experiência em
                         HTML, CSS e Javascript. Busco constantemente por novos desafios e oportunidades de crescimento.
                         Acredito que a tecnologia pode transformar o mundo e quero fazer parte dessa transformação.
@@ -129,12 +124,11 @@
                     <a class="btn btn-primary" href="projetos.html" target="_blank">Conheça o meu trabalho</a>
                 </div>
             </div>
-
         </section>
 
         <section class="mb-5" id="habilidades">
             <h2 class="mb-4">Minhas Habilidades</h2>
-
+            <hr>
             <div class="row text-center">
                 <div class="col-md-4">
                     <h4>Front-end</h4>
@@ -178,8 +172,9 @@
 
         <section class="mb-5" id="projetctos">
             <h2 class="mb-4">Projetos Realizados</h2>
+            <hr>
             <div class="row">
-                <p id="front-end">
+                <p class="justificado">
                     <strong>Plataforma de Cursos Online (Front-end)</strong>
                     <br>
                     Desenvolvi uma plataforma de cursos online utilizando React.js e Tailwind CSS, proporcionando uma
@@ -188,7 +183,7 @@
                     implementei animações suaves com Framer Motion para tornar a interação mais fluida e envolvente
                 </p>
 
-                <p id="back-end">
+                <p class="justificado">
                     <strong>API para Gestão de Tarefas (Back-end)</strong>
                     <br>
                     Criei uma API RESTful para um sistema de gestão de tarefas, utilizando Node.js com Express e banco
@@ -198,7 +193,7 @@
                     estruturado seguindo boas práticas de arquitetura como MVC e princípios SOLID.
                 </p>
 
-                <p id="design">
+                <p class="justificado">
                     <strong>Redesign de um Aplicativo de Delivery (UX/UI)</strong>
                     <br>
                     Liderei o redesign de um aplicativo de delivery com foco na experiência do usuário. Através de
@@ -214,6 +209,7 @@
 
         <section class="mb-5" id="trabalho">
             <h2 class="mb-4">Trabalhos Desenvolvidos em Equipe</h2>
+            <hr>
             <div class="row">
                 <div class="col-md-3">
                     <img src="image/img-atividades.png" alt="Imagem de atividades realizadas"
@@ -231,7 +227,7 @@
                         transformar protótipos em experiências interativas e intuitivas.
                     </p>
 
-                    <p class="mb-3">
+                    <p class="mb-3 justificado">
                         <strong>Desenvolvedor Back-end – [Nome da Empresa]</strong>
                         <br>
                         No cargo de Desenvolvedor Back-end, fui responsável pelo desenvolvimento e manutenção de APIs
@@ -241,7 +237,7 @@
                         back-end, garantindo a comunicação eficiente entre as camadas da aplicação.
                     </p>
 
-                    <p class="mb-3">
+                    <p class="mb-3 justificado">
                         <strong>UX/UI Designer – [Nome da Empresa]</strong>
                         <br>
                         Como UX/UI Designer, conduzi pesquisas de usuário, testes de usabilidade e prototipagem de
@@ -259,6 +255,7 @@
 
         <section class="mb-5" id="servico">
             <h2 class="mb-4">Serviços oferecidos</h2>
+            <hr>
             <div class="row text-center">
 
                 <div class="col-md-6 mb-4">
@@ -308,13 +305,14 @@
 
         <section class="mb-5" id="testemunho">
             <h2 class="mb-4">Testemunhos</h2>
+            <hr>
             <div class="row">
                 <div class="col-md-3">
                     <img src="image/img-testemunho.jpg" alt="Imagem de Testemunhos" class="img-fluid">
                 </div>
 
                 <div class="col-md-9">
-                    <p class="mb-3">
+                    <p class="mb-3 justificado">
                         <strong>João Silva – CEO de Startup Tech</strong>
                         <br>
                         Trabalhar com [Seu Nome] foi uma experiência incrível! Ele desenvolveu a interface do nosso
@@ -325,7 +323,7 @@
                         nossas expectativas.
                     </p>
 
-                    <p class="mb-3">
+                    <p class="mb-3 justificado">
                         <strong>Mariana Costa – UX/UI Designer</strong>
                         <br>
                         Profissional extremamente talentoso! Sua atenção à experiência do usuário e sua habilidade em
@@ -334,7 +332,7 @@
                         sem hesitar!
                     </p>
 
-                    <p class="mb-3">
+                    <p class="mb-3 justificado">
                         <strong>Pedro Almeida – Empreendedor Digital</strong>
                         <br>
                         Precisava de um site rápido e eficiente para o meu negócio, e o [Seu Nome] entregou exatamente
@@ -350,6 +348,7 @@
 
         <section class="mb-5" id="contacto">
             <h2 class="mb-4">Vamos conversar</h2>
+            <hr>
             <div class="row text-center">
                 <div class="col-md-4">
                     <h4>Envie uma mensagem</h4>
